@@ -62,3 +62,14 @@ function renderPatientList() {
         patientList.appendChild(li);
     });
 }
+
+// Search patients based on input query
+function searchPatients() {
+    const query = searchInput.value.toLowerCase();
+    const filteredPatients = patients.filter(patient =>
+        patient.name.toLowerCase().includes(query) ||
+        patient.condition.toLowerCase().includes(query)
+    );
+
+    renderFilteredPatientList(filteredPatients);
+}
