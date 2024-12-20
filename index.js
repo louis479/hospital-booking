@@ -86,3 +86,9 @@ function renderFilteredPatientList(filteredPatients) {
         patientList.appendChild(li);
     });
 }
+
+// Clear patient list
+function clearPatientList() {
+    patients = [];
+    renderPatientList();
+}
