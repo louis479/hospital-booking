@@ -33,4 +33,7 @@ function addPatient(event) {
 
      // Add patient to the array
      patients.push(newPatient);
+
+     // Update the patient list
+    renderPatientList();
 }
