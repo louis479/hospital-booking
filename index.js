@@ -47,3 +47,6 @@ function removePatient(patientId) {
     patients = patients.filter(patient => patient.id !== patientId);
     renderPatientList();
 }
+
+// Render patient details in the list
+function renderPatientList() {}
