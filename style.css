@@ -71,3 +71,11 @@ input, select, button {
     border-radius: 5px;
     font-size: 1rem;
 }
+
+button.btn {
+    background: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
