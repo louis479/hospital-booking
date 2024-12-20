@@ -43,3 +43,8 @@ nav ul li a:hover {
     background-color: #005bb5;
     border-radius: 5px;
 }
+
+/* Main Content */
+main {
+    margin: 20px;
+}
