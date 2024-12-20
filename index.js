@@ -39,4 +39,11 @@ function addPatient(event) {
 
     // Reset the form
     patientForm.reset();
+
+}
+
+// Remove a patient from the system
+function removePatient(patientId) {
+    patients = patients.filter(patient => patient.id !== patientId);
+    renderPatientList();
 }
