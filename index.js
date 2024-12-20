@@ -30,4 +30,7 @@ function addPatient(event) {
         condition,
         paymentMethod
     };
+
+     // Add patient to the array
+     patients.push(newPatient);
 }
