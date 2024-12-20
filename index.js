@@ -4,3 +4,5 @@ const patientList = document.getElementById('patientList');
 const searchInput = document.getElementById('searchInput');
 const clearButton = document.getElementById('clearButton');
 
+// Array to store patient details
+let patients = [];
