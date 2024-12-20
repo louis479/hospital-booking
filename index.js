@@ -17,4 +17,8 @@ function addPatient(event) {
     const condition = document.getElementById('patientCondition').value.trim();
     const paymentMethod = document.getElementById('paymentMethod').value;
 
+    if (!name || !age || !condition || !paymentMethod) {
+        alert('Please fill in all fields.');
+        return;
+    }
 }
