@@ -31,6 +31,20 @@ function addPatient(event) {
         paymentMethod
     };
 
+     // POST request to JSON Server
+     fetch('http://localhost:3000/patients', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(newPatient)
+    })
+        .then(response => response.json())
+        .then(() => {
+            renderPatientList(); // Re-fetch and display updated list
+            patientForm.reset(); // Clear the form
+        })
+        .catch(error => console.error('Error adding patient:', error));
+}
+
      // Add patient to the array
      patients.push(newPatient);
 

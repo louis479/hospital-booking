@@ -1,0 +1,50 @@
+{
+    "patients": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 45,
+        "condition": "Flu",
+        "paymentMethod": "insurance"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 30,
+        "condition": "Broken Arm",
+        "paymentMethod": "card"
+      },
+      {
+        "id": 3,
+        "name": "Mark Johnson",
+        "age": 60,
+        "condition": "Diabetes",
+        "paymentMethod": "cash"
+      }
+    ],
+    "history": [
+      {
+        "patientId": 1,
+        "records": [
+          {
+            "date": "2024-12-01",
+            "details": "Consulted for flu symptoms"
+          },
+          {
+            "date": "2024-12-15",
+            "details": "Follow-up checkup"
+          }
+        ]
+      },
+      {
+        "patientId": 2,
+        "records": [
+          {
+            "date": "2024-11-20",
+            "details": "X-ray for broken arm"
+          }
+        ]
+      }
+    ]
+  }
+  
