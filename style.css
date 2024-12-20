@@ -79,3 +79,6 @@ button.btn {
     cursor: pointer;
 }
 
+button.btn:hover {
+    background: #005bb5;
+}
