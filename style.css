@@ -82,3 +82,9 @@ button.btn {
 button.btn:hover {
     background: #005bb5;
 }
+
+/* Patient List */
+#patientList, #historyList {
+    list-style: none;
+    padding: 0;
+}
