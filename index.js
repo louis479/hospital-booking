@@ -6,3 +6,8 @@ const clearButton = document.getElementById('clearButton');
 
 // Array to store patient details
 let patients = [];
+
+// Add a patient to the system
+function addPatient(event) {
+
+}
