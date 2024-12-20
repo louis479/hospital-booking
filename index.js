@@ -9,5 +9,7 @@ let patients = [];
 
 // Add a patient to the system
 function addPatient(event) {
+    event.preventDefault();
 
+    
 }
