@@ -21,4 +21,13 @@ function addPatient(event) {
         alert('Please fill in all fields.');
         return;
     }
+
+    // Create a new patient object
+    const newPatient = {
+        id: Date.now(),
+        name,
+        age,
+        condition,
+        paymentMethod
+    };
 }
