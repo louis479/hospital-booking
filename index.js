@@ -73,3 +73,16 @@ function searchPatients() {
 
     renderFilteredPatientList(filteredPatients);
 }
+
+// Render the filtered list based on search
+function renderFilteredPatientList(filteredPatients) {
+    patientList.innerHTML = '';
+    filteredPatients.forEach(patient => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+            <strong>${patient.name}</strong>, Age: ${patient.age}, Condition: ${patient.condition}, Payment: ${patient.paymentMethod}
+            <button onclick="removePatient(${patient.id})" class="remove-button">Remove</button>
+        `;
+        patientList.appendChild(li);
+    });
+}
