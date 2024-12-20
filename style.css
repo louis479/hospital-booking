@@ -96,3 +96,11 @@ button.btn:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
