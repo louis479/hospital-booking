@@ -27,3 +27,7 @@ nav {
     background-color: #333;
     margin-top: 10px;
 }
+
+nav ul li {
+    margin: 0 20px;
+}
