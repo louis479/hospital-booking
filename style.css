@@ -61,3 +61,13 @@ main {
 h2 {
     color: #0073e6;
 }
+
+/* Form Styling */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
