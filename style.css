@@ -104,3 +104,8 @@ footer {
     font-size: 0.9rem;
     color: #555;
 }
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
