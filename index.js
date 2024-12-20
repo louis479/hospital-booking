@@ -36,4 +36,7 @@ function addPatient(event) {
 
      // Update the patient list
     renderPatientList();
+
+    // Reset the form
+    patientForm.reset();
 }
