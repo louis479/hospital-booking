@@ -92,3 +92,8 @@ function clearPatientList() {
     patients = [];
     renderPatientList();
 }
+
+// Event Listeners
+patientForm.addEventListener('submit', addPatient);
+searchInput.addEventListener('input', searchPatients);
+clearButton.addEventListener('click', clearPatientList);
