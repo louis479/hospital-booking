@@ -1,50 +1,197 @@
 {
-    "patients": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "age": 45,
-        "condition": "Flu",
-        "paymentMethod": "insurance"
-      },
-      {
-        "id": 2,
-        "name": "Jane Smith",
-        "age": 30,
-        "condition": "Broken Arm",
-        "paymentMethod": "card"
-      },
-      {
-        "id": 3,
-        "name": "Mark Johnson",
-        "age": 60,
-        "condition": "Diabetes",
-        "paymentMethod": "cash"
-      }
-    ],
-    "history": [
-      {
-        "patientId": 1,
-        "records": [
-          {
-            "date": "2024-12-01",
-            "details": "Consulted for flu symptoms"
-          },
-          {
-            "date": "2024-12-15",
-            "details": "Follow-up checkup"
-          }
-        ]
-      },
-      {
-        "patientId": 2,
-        "records": [
-          {
-            "date": "2024-11-20",
-            "details": "X-ray for broken arm"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 45,
+      "condition": "Flu",
+      "roomNumber": 101,
+      "category": "General",
+      "paymentMethod": "insurance"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 30,
+      "condition": "Broken Arm",
+      "roomNumber": 202,
+      "category": "Surgical",
+      "paymentMethod": "card"
+    },
+    {
+      "id": 3,
+      "name": "Robert Johnson",
+      "age": 60,
+      "condition": "Heart Disease",
+      "roomNumber": 305,
+      "category": "ICU",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "age": 22,
+      "condition": "Appendicitis",
+      "roomNumber": 204,
+      "category": "Surgical",
+      "paymentMethod": "card"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "age": 55,
+      "condition": "Pneumonia",
+      "roomNumber": 103,
+      "category": "General",
+      "paymentMethod": "insurance"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Wilson",
+      "age": 28,
+      "condition": "Fractured Leg",
+      "roomNumber": 207,
+      "category": "Surgical",
+      "paymentMethod": "card"
+    },
+    {
+      "id": 7,
+      "name": "James Anderson",
+      "age": 40,
+      "condition": "Severe Allergies",
+      "roomNumber": 105,
+      "category": "General",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": 8,
+      "name": "Anna Martinez",
+      "age": 34,
+      "condition": "Asthma",
+      "roomNumber": 208,
+      "category": "General",
+      "paymentMethod": "insurance"
+    },
+    {
+      "id": 9,
+      "name": "David Lee",
+      "age": 50,
+      "condition": "Stroke Recovery",
+      "roomNumber": 302,
+      "category": "ICU",
+      "paymentMethod": "insurance"
+    },
+    {
+      "id": 10,
+      "name": "Olivia White",
+      "age": 26,
+      "condition": "Kidney Stones",
+      "roomNumber": 209,
+      "category": "Surgical",
+      "paymentMethod": "card"
+    },
+    {
+      "id": 659629,
+      "name": "george kirau",
+      "age": 43,
+      "condition": "Broken arm",
+      "roomNumber": 14,
+      "category": "general",
+      "paymentMethod": "insurance"
+    },
+    {
+      "id": 839505,
+      "name": "mike gerald",
+      "age": 14,
+      "condition": "2nd Degree burns",
+      "roomNumber": 78,
+      "category": "private",
+      "paymentMethod": "card"
+    },
+    {
+      "id": 834270,
+      "name": "gerald micheal",
+      "age": 21,
+      "condition": "stabbing in the liver",
+      "roomNumber": 31,
+      "category": "private",
+      "paymentMethod": "insurance"
+    },
+    {
+      "id": 400137,
+      "name": "Jared mark",
+      "age": 23,
+      "condition": "2nd Degree burns",
+      "roomNumber": 25,
+      "category": "private",
+      "paymentMethod": "insurance"
+    }
+  ],
+  "history": [
+    {
+      "patientId": 1,
+      "condition": "Flu"
+    },
+    {
+      "patientId": 2,
+      "condition": "Broken Arm"
+    },
+    {
+      "patientId": 3,
+      "condition": "Heart Disease"
+    },
+    {
+      "patientId": 4,
+      "condition": "Appendicitis"
+    },
+    {
+      "patientId": 5,
+      "condition": "Pneumonia"
+    },
+    {
+      "patientId": 6,
+      "condition": "Fractured Leg"
+    },
+    {
+      "patientId": 7,
+      "condition": "Severe Allergies"
+    },
+    {
+      "patientId": 8,
+      "condition": "Asthma"
+    },
+    {
+      "patientId": 9,
+      "condition": "Stroke Recovery"
+    },
+    {
+      "patientId": 10,
+      "condition": "Kidney Stones"
+    },
+    {
+      "id": "92e6",
+      "patientId": null,
+      "condition": "Broken arm"
+    },
+    {
+      "id": "20b0",
+      "patientId": 659629,
+      "condition": "Broken arm"
+    },
+    {
+      "id": "def7",
+      "patientId": 839505,
+      "condition": "2nd Degree burns"
+    },
+    {
+      "id": "85c3",
+      "patientId": 834270,
+      "condition": "stabbing in the liver"
+    },
+    {
+      "id": "b67c",
+      "patientId": 400137,
+      "condition": "2nd Degree burns"
+    }
+  ]
+}
